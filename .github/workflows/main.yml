@@ -1,4 +1,4 @@
-name: Run Github Demo Tests
+name: Run Tests
 
 on: [push, pull_request]
 
@@ -22,4 +22,4 @@ jobs:
         pip install -r requirements.txt  # Замініть це на ваш спосіб встановлення залежностей
       
     - name: Run tests
-      run: python -m unittest discover
+      run: python test.py
