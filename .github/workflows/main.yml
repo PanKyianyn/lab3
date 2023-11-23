@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run main test 3 calculations
 
 on: [push, pull_request]
 
