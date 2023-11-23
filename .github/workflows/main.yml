@@ -1,6 +1,6 @@
 name: Run main test 3 calculations
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   test:
